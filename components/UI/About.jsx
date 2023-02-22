@@ -4,10 +4,10 @@ import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
-import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+import img01 from "../../public/images/About4.jpg";
+import img02 from "../../public/images/About3.jpg";
+import img03 from "../../public/images/About1.png";
+import img04 from "../../public/images/About2.jpg";
 
 import classes from "../../styles/about.module.css";
 
@@ -16,64 +16,7 @@ const About = () => {
     <section id="about">
       <Container>
         <Row>
-          <Col lg="6" className={`${classes.about__content}`}>
-            <SectionSubtitle subtitle="About me" />
-            <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
-            </p>
-
-            <div className=" d-flex align-items-center gap-5">
-              <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  Problem Solving
-                </h6>
-
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  Search A Lot
-                </h6>
-              </div>
-
-              <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  Creative Idea
-                </h6>
-
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  High Quality
-                </h6>
-              </div>
-            </div>
-
-            <div className="mt-5">
-              <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
-              </button>
-
-              <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
-              </button>
-            </div>
-          </Col>
-
-          <Col lg="6">
+        <Col lg="6">
             <div
               className={`${classes.about__img__gallery} d-flex gap-4 justify-content-end`}
             >
@@ -106,6 +49,62 @@ const About = () => {
               </div>
             </div>
           </Col>
+
+          <Col lg="6" className={`${classes.about__content}`}>
+            <SectionSubtitle subtitle="About me" />
+            <h3 className="mt-4">I&apos;m here</h3>
+            <h3 className="mb-4">Moh. Aufa Azka Fabian</h3>
+            <p>
+              Haloo.. Perkenalkan saya Aufa asal kota Banyuwangi. Saat ini saya bersekolah di SMK TELKOM MALANG dengan jurusan 
+              Android. Saya memiliki hobby berenang, ini merupakan perkenalan singkat saya. Sekian terimakasih...
+            </p>
+
+            <div className=" d-flex align-items-center gap-5">
+              <div>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  Communication
+                </h6>
+
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  Teamwork 
+                </h6>
+              </div>
+
+              <div>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  Creative Idea
+                </h6>
+
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  Adaptability
+                </h6>
+              </div>
+            </div>
+
+            <div className="mt-5">
+              <button className="primary__btn">
+                <Link href="#portfolio">My Portfolio</Link>
+              </button>
+
+              <button className="secondary__btn">
+                <Link href="https://drive.google.com/file/d/18T0M80GQyUthsI5KfFPfh5OJK0L39_Mo/view?usp=share_link">Download CV</Link>
+              </button>
+            </div>
+          </Col>
+
+          
         </Row>
       </Container>
     </section>

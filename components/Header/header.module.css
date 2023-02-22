@@ -84,7 +84,7 @@
   display: none;
 }
 
-/* ========== make it responsive ========= */
+/* ========== responsive ========= */
 
 @media only screen and (max-width: 992px) {
   .navigation {

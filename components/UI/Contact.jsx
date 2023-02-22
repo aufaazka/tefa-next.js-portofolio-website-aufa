@@ -24,37 +24,34 @@ const Contact = () => {
                 <span>
                   <i className="ri-map-pin-line"></i>
                 </span>
-                <p>Sylhet - Bangladesh</p>
+                <p>Malang - SMK TELKOM MALANG</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-mail-line"></i>
                 </span>
-                <p>muhib5532@gmail.com</p>
+                <p>azkafabian57@gmail.com</p>
               </li>
               <li className={`${classes.info__item}`}>
                 <span>
                   <i className="ri-phone-line"></i>
                 </span>
-                <p>+088123456789</p>
+                <p>+6285156160115</p>
               </li>
             </ul>
 
             <div className={`${classes.social__links}`}>
-              <Link href="#">
-                <i className="ri-youtube-line"></i>
-              </Link>
-              <Link href="#">
+            <Link href="https://github.com/aufaazka">
                 <i className="ri-github-line"></i>
               </Link>
-              <Link href="#">
-                <i className="ri-facebook-line"></i>
-              </Link>
-              <Link href="#">
-                <i className="ri-linkedin-line"></i>
-              </Link>
-              <Link href="#">
+            <Link href="https://www.instagram.com/fabian_azka_/">
                 <i className="ri-instagram-line"></i>
+              </Link>
+              <Link href="www.youtube/c/fabianazka">
+                <i className="ri-youtube-line"></i>
+              </Link>
+              <Link href="https://www.facebook.com/fabian.azka.79">
+                <i className="ri-facebook-line"></i>
               </Link>
             </div>
           </Col>

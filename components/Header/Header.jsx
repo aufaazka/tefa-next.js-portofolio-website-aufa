@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-
 import { Container } from "reactstrap";
 import classes from "./header.module.css";
 import Link from "next/link";
@@ -16,10 +15,6 @@ const NAV__LINK = [
   {
     path: "#about",
     display: "About",
-  },
-  {
-    path: "#services",
-    display: "Services",
   },
   {
     path: "#contact",

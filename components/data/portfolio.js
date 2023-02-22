@@ -36,18 +36,9 @@ const portfolio = [
   },
 
   {
-    id: "05",
-    title: "Furniture Shopping App",
-    img: "/images/portfolio-05.jpg",
-    category: "Mobile App",
-    keyword: ["Mobile", "App", "UI-UX"],
-   
-  },
-
-  {
     id: "06",
-    title: "Portfolio Website",
-    img: "/images/portfolio-07.png",
+    title: "Perpustakaan Jaya Website",
+    img: "/images/perpus.jpg",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
    
@@ -55,8 +46,8 @@ const portfolio = [
 
   {
     id: "08",
-    title: "Restaurant Website",
-    img: "/images/portfolio-08.png",
+    title: "Group Introduction Website",
+    img: "/images/tefa4.jpg",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
    
@@ -64,8 +55,8 @@ const portfolio = [
 
   {
     id: "09",
-    title: "Agency Website",
-    img: "/images/portfolio-09.png",
+    title: "Furniture Website",
+    img: "/images/fourtykweb.jpg",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
     
