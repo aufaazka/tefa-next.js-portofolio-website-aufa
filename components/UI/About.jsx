@@ -81,13 +81,13 @@ const About = () => {
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img01} alt="about-img" />
+                  <Image src={img01} alt="about-img" width="100" height="100" />
                 </div>
 
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img02} alt="about-img" />
+                  <Image src={img02} alt="about-img" weight="100" height="200"/>
                 </div>
               </div>
 
@@ -95,13 +95,13 @@ const About = () => {
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img03} alt="about-img" />
+                  <Image src={img03} alt="about-img" weight="100" height="200" />
                 </div>
 
                 <div
                   className={`${classes.about__img} ${classes.about__img__box}`}
                 >
-                  <Image src={img04} alt="about-img" />
+                  <Image src={img04} alt="about-img" weight="100" height="200" />
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
 .portfolio__item {
-  background: #171f38;
+  background: #ECA148;
   padding: 0px 20px 20px 20px;
   padding-top: 30px;
   border-radius: 10px;
@@ -7,14 +7,13 @@
 }
 
 .portfolio__item h6 {
-  color: #01d293;
+  color: #000;
   margin-bottom: 20px;
   background: transparent;
 }
 
 .portfolio__img {
   margin-top: 30px;
-
   background: transparent;
 }
 
@@ -25,7 +24,7 @@
 .portfolio__keyword {
   padding: 5px 10px;
   color: #fff;
-  background: #808dad68;
+  background: #171f38;
   font-size: 0.7rem;
   margin-right: 10px;
   border-radius: 5px;
@@ -37,10 +36,7 @@
   display: none;
 }
 
-.portfolio__item:hover .portfolio__live {
-  margin-left: 0;
-  display: block;
-}
+
 
 @media only screen and (max-width: 576px) {
   .portfolio__img img {

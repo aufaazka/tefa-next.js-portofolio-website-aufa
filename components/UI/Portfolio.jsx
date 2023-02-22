@@ -44,7 +44,7 @@ const Portfolio = () => {
               <button
                 className={` ${
                   filter === "Mobile App" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn text-black`}
                 onClick={() => setFilter("Mobile App")}
               >
                 Mobile App
@@ -52,7 +52,7 @@ const Portfolio = () => {
               <button
                 className={`${
                   filter === "Web Design" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn text-black`}
                 onClick={() => setFilter("Web Design")}
               >
                 Web Design

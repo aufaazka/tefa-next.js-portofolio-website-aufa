@@ -1,5 +1,5 @@
 .service__item {
-  background: #171f38;
+  background: #ECA148;
   padding: 30px;
   margin-bottom: 30px;
   display: flex;
@@ -9,7 +9,7 @@
 }
 
 .service__item:hover {
-  background: #01d293;
+  background: #ECA148;
   cursor: pointer;
 
   transform: translateY(-20px);
@@ -31,7 +31,7 @@
 
 .service__item span i {
   font-size: 3rem;
-  color: #01d293;
+  color: #fff;
 }
 
 .service__item h5 {

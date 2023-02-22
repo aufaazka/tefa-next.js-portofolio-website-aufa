@@ -3,8 +3,8 @@
   width: 100%;
   border: none;
   outline: none;
-  background: #171f38;
-  color: #fff;
+  background: #CCCCCC;
+  color: #000;
   padding: 15px 20px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -17,5 +17,5 @@
 }
 
 .form button {
-  color: #01d293;
+  color: #ECA148;
 }

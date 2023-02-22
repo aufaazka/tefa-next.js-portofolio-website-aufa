@@ -16,7 +16,7 @@
 }
 
 .logo h1 span {
-  color: #01d293;
+  color: #ECA148;
 }
 
 .nav__menu {
@@ -26,7 +26,7 @@
 }
 
 .nav__menu a {
-  color: #808dad;
+  color: #575757;
   font-weight: 500;
   font-size: 1rem;
   text-decoration: none;
@@ -35,20 +35,20 @@
 }
 
 .nav__menu a:hover {
-  color: #01d293;
+  color: #ECA148;
 }
 
 .nav__menu a:first-child {
-  color: #01d293;
+  color: #ECA148;
 }
 
 .nav__right p {
-  color: #01d293;
+  color: #ECA148;
   margin-left: 20px;
   position: relative;
 }
 .nav__right i {
-  color: #808dad;
+  color: #575757;
 }
 
 .nav__right p::before {
@@ -58,8 +58,8 @@
   left: -20px;
   width: 1px;
   height: 14px;
-  background: #808dad;
-  color: #808dad;
+  background: #575757;
+  color: #575757;
 }
 
 .header__shrink {
@@ -69,13 +69,13 @@
   width: 100%;
   height: 80px;
   line-height: 80px;
-  box-shadow: 5px 5px 15px -5px #01d29344 !important;
+  box-shadow: 5px 5px 15px -5px #ECA148 !important;
   z-index: 9999;
 }
 
 .mobile__menu i {
   font-size: 1.3rem;
-  color: #fff;
+  color: #ECA148;
 
   cursor: pointer;
 }

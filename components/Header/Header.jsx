@@ -10,16 +10,16 @@ const NAV__LINK = [
     display: "Home",
   },
   {
+    path: "#portfolio",
+    display: "Portfolio",
+  },
+  {
     path: "#about",
     display: "About",
   },
   {
     path: "#services",
     display: "Services",
-  },
-  {
-    path: "#portfolio",
-    display: "Portfolio",
   },
   {
     path: "#contact",
