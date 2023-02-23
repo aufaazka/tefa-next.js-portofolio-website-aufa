@@ -7,8 +7,7 @@ import Image from "next/image";
 import img01 from "../../public/images/About4.jpg";
 import img02 from "../../public/images/About3.jpg";
 import img03 from "../../public/images/About1.png";
-import img04 from "../../public/images/About2.jpg";
-
+import img04 from "../../public/images/About.jpg";
 import classes from "../../styles/about.module.css";
 
 const About = () => {
