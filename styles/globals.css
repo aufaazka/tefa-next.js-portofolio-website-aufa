@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Quicksand", sans-serif;
-  scroll-behavior: smooth;
+  
 }
 
 a {
@@ -41,12 +41,11 @@ section {
 
 footer {
   padding-bottom: 10px;
-  padding-top: 60px;
-  border-top: 1px solid #171f38;
+ 
 }
 
 .primary__btn {
-  background: #171f38 !important;
+  background: #ECA148 !important;
   padding: 7px 25px !important;
   border: 1px solid #ECA148 !important;
   border-radius: 5px;
@@ -54,7 +53,7 @@ footer {
 
 .primary__btn a {
   text-decoration: none;
-  color: #ECA148;
+  color: #fff;
   background: transparent !important;
 }
 
@@ -70,17 +69,17 @@ footer {
 }
 .primary__btn a:hover,
 .secondary__btn a:hover {
-  color: #ECA148;
+  color: #fff;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
-  background: #808dad;
+  background: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 2em;
-  background: #171f38;
+  background: #fff;
 }
 
 @media only screen and (max-width: 992px) {
