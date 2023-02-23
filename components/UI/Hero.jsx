@@ -18,11 +18,11 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Moh. Aufa Azka Fabian</h2>
               <h5 className="mb-4">Frontend Developer</h5>
               <p>
-                Perkenalkan nama saya Moh. Aufa Azka Fabian dari SMK Telkom Malang disini saya coba membuat sebuah website portofolio yang saya lakukan ini merupakan belajar
+                Perkenalkan nama saya Moh. Aufa Azka Fabian dari SMK Telkom Malang disini saya coba membuat sebuah website portfolio yang saya lakukan ini merupakan belajar
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="#about">About me</Link>
                 </button>
 
                 <button className="secondary__btn">
