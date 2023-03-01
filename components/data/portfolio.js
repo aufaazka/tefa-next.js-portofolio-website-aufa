@@ -5,6 +5,7 @@ const portfolio = [
     img: "/images/ayomasak.png",
     category: "Mobile App",
     keyword: ["Mobile", "UI-UX"],
+    prodUrl:"#",
    
   },
 
@@ -14,6 +15,7 @@ const portfolio = [
     img: "/images/imhere.png",
     category: "Mobile App",
     keyword: ["Mobile", "UI-UX"],
+    prodUrl:"#",
    
   },
 
@@ -23,6 +25,7 @@ const portfolio = [
     img: "/images/fourtyk.png",
     category: "Mobile App",
     keyword: ["Mobile", "UI-UX","Tefa"],
+    prodUrl:"#",
    
   },
 
@@ -32,6 +35,7 @@ const portfolio = [
     img: "/images/madhangsekul.png",
     category: "Mobile App",
     keyword: ["Mobile", "UI-UX"],
+    prodUrl:"#",
    
   },
 
@@ -41,6 +45,7 @@ const portfolio = [
     img: "/images/perpus.jpg",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
+    prodUrl:"#",
    
   },
 
@@ -50,6 +55,7 @@ const portfolio = [
     img: "/images/tefa4.jpg",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
+    prodUrl:"#",
    
   },
 
@@ -59,6 +65,7 @@ const portfolio = [
     img: "/images/fourtykweb.jpg",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
+    prodUrl:"#",
     
   },
 ];

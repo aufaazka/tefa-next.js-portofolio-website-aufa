@@ -36,6 +36,10 @@
   display: none;
 }
 
+.portfolio__item:hover .portfolio__live {
+  margin-left: 0;
+  display: block;
+}
 
 
 @media only screen and (max-width: 576px) {

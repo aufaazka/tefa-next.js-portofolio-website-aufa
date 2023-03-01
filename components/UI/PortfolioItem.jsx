@@ -1,10 +1,11 @@
 import React from "react";
 import classes from "../../styles/portfolio-item.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const PortfolioItem = (props) => {
-  const { title, img, liveUrl, keyword } = props.item;
+  const { title, img, prodUrl, keyword } = props.item;
   return (
     <div className={`${classes.portfolio__item}`}>
       <div className="bg-transparent">
@@ -19,11 +20,14 @@ const PortfolioItem = (props) => {
       <div className={`${classes.portfolio__img}`}>
         <Image alt="portfolio-img" src={img} width="380" height="250" />
       </div>
-
+     
       <div className={`${classes.portfolio__live} bg-transparent`}>
         <button className="primary__btn">
+          <Link href={prodUrl}>Launch</Link>
         </button>
       </div>
+  
+     
     </div>
   );
 };
