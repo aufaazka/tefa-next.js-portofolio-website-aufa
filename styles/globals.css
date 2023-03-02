@@ -43,15 +43,8 @@ footer {
   padding-bottom: 10px;
  
 }
-
-.primary__btn {
+.primary__btn{
   background: #ECA148 !important;
-  padding: 7px 25px !important;
-  border: 1px solid #ECA148 !important;
-  border-radius: 5px;
-}
-.primary__btn_url{
-  background: #000 !important;
   padding: 7px 25px !important;
   border: 1px solid #ECA148 !important;
   border-radius: 5px;
@@ -61,6 +54,18 @@ footer {
   color: #fff;
   background: transparent !important;
 }
+.primary__btn_url{
+  background: #171f38 !important;
+  padding: 7px 25px !important;
+  border: 1px solid #171f38 !important;
+  border-radius: 5px;
+}
+.primary__btn_url a {
+  text-decoration: none;
+  color: #fff;
+  background: transparent !important;
+}
+
 
 .secondary__btn {
   background: transparent;

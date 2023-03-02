@@ -1,4 +1,4 @@
-const portfolio = [
+const favorite = [
   {
     id: "01",
     title: "A food mobile app",
@@ -70,4 +70,4 @@ const portfolio = [
   },
 ];
 
-export default portfolio;
+export default favorite;

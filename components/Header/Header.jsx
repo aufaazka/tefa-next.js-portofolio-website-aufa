@@ -9,8 +9,8 @@ const NAV__LINK = [
     display: "Home",
   },
   {
-    path: "#portfolio",
-    display: "Portfolio",
+    path: "#favorite",
+    display: "Favorite",
   },
   {
     path: "#about",

@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/portfolio.module.css";
-import PortfolioItem from "./PortfolioItem";
+import classes from "../../styles/favorite.module.css";
+import FavoriteItem from "./FavoriteItem";
 
-import portfolioData from "../data/portfolio";
+import favoriteData from "../data/favorite";
 
-const Portfolio = () => {
+const Favorite = () => {
   const [filter, setFilter] = useState("Mobile App");
   const [data, setData] = useState();
 
   useEffect(() => {
     if (filter === "Mobile App") {
-      const filteredData = portfolioData.filter(
+      const filteredData = favoriteData.filter(
         (item) => item.category === filter
       );
 
@@ -20,7 +20,7 @@ const Portfolio = () => {
     }
 
     if (filter === "Web Design") {
-      const filteredData = portfolioData.filter(
+      const filteredData = favoriteData.filter(
         (item) => item.category === filter
       );
 
@@ -31,7 +31,7 @@ const Portfolio = () => {
   const active = `${classes.tab__btn__active}`;
 
   return (
-    <section id="portfolio">
+    <section id="favorite">
       <Container>
         <Row>
           <Col lg="6" md="6" className="mb-5">
@@ -62,7 +62,7 @@ const Portfolio = () => {
 
           {data?.map((item) => (
             <Col lg="4" md="4" sm="6" key={item.id}>
-              <PortfolioItem item={item} />
+              <FavoriteItem item={item} />
             </Col>
           ))}
         </Row>
@@ -71,4 +71,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Favorite;

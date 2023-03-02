@@ -18,7 +18,7 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Moh. Aufa Azka Fabian</h2>
               <h5 className="mb-4">Frontend Developer</h5>
               <p>
-                Perkenalkan nama saya Moh. Aufa Azka Fabian dari SMK Telkom Malang disini saya coba membuat sebuah website portfolio yang saya lakukan ini merupakan belajar
+              Membangun website dan aplikasi mobile yang menarik dan mudah digunakan dapat membantu bisnis Anda tumbuh dengan pesat. Kami menawarkan jasa desain website dan aplikasi mobile profesional yang menarik perhatian pelanggan dan mudah digunakan. Dengan pengalaman dan keahlian kami, kami dapat membuat website dan aplikasi mobile yang sesuai dengan kebutuhan dan preferensi Anda. Hubungi kami sekarang untuk mendapatkan penawaran terbaik dan mulailah membangun hadir online Anda yang menarik dan efektif!
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
